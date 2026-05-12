@@ -109,10 +109,9 @@
     const root = $("#timeline-track");
     if (!root) return;
     root.innerHTML = D.timeline.map((t,i) => `
-      <div class="tl-node ${t.cls||""}" data-i="${i}">
-        <div class="tl-dot"></div>
-        <div class="tl-when">${t.date}</div>
+      <div class="tl-item ${t.cls||""}" data-i="${i}">
         <div class="tl-card">
+          <div class="tl-when">${t.date}</div>
           <div class="tl-card-title">${t.title}</div>
           <div class="tl-card-text">${t.body}</div>
           <span class="tl-card-tag">${t.tag}</span>
