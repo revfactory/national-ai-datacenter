@@ -3,7 +3,7 @@
  * 출처: _workspace/01~04_*.md
  * ========================================================= */
 
-window.SKAI_DATA = {
+window.NADC_DATA = {
 
   /* ---------- TIMELINE ---------- */
   timeline: [

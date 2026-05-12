@@ -2,7 +2,7 @@
  * National AI Data Center — Frontend
  * ========================================================= */
 (() => {
-  const D = window.SKAI_DATA;
+  const D = window.NADC_DATA;
   const $ = (sel, root=document) => root.querySelector(sel);
   const $$ = (sel, root=document) => Array.from(root.querySelectorAll(sel));
 
